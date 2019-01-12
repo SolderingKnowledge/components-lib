@@ -1,0 +1,12 @@
+[
+    {
+        "model": "iPhone 8",
+        "active": false,
+        "id": 1
+    },
+    {
+        "model": "iPhone 6",
+        "active": false,
+        "id": 2
+    }
+]
