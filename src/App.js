@@ -21,16 +21,17 @@ class App extends Component {
     return (
       <div>
         <Header />
+        <br />
         {this.state.phones.map((phone, id) => {
           return <Detail
             phone = {phone}
             key={id}
            />
         })}
+        <br />
         <Footer />
       </div>
     )
   }
 }
-
 export default App;
