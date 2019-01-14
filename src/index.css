@@ -28,3 +28,6 @@ p{
 button{
   padding: 10px;
 }
+#detail{
+	border: solid 2px;
+}
