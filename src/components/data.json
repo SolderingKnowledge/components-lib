@@ -1,11 +1,13 @@
 [
     {
         "model": "iPhone 8",
+        "content": "Booked iPhone 8 or click to cancel",
         "active": false,
         "id": 1
     },
     {
         "model": "iPhone 6",
+        "content": "Booked iPhone 6 or click to cancel",
         "active": false,
         "id": 2
     }
