@@ -1,0 +1,15 @@
+h3{
+    text-align: center;
+    border: solid;
+    padding: 40px;
+  }
+  
+  p{
+    text-align: center;
+  }
+  button{
+    padding: 10px;
+  }
+  #detail{
+      border: solid 2px;
+  }

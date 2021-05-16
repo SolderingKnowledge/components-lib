@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Detail from './components/Detail';
+import Detail from './components/Details';
 import Data from './components/data.json';
-import Header from './components/header';
-import Footer from './components/footer';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import './index.css';
 class App extends Component {
   constructor(props){
@@ -19,7 +19,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
+      <>
         <Header />
         <br />
         {this.state.phones.map((phone, id) => {
@@ -30,7 +30,7 @@ class App extends Component {
         })}
         <br />
         <Footer />
-      </div>
+      </>
     )
   }
 }
