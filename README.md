@@ -1,5 +1,4 @@
 # React Component Library
 
 ## Description
-
-master
+React component library within storybook.

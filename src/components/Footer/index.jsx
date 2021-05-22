@@ -1,9 +1,10 @@
 import React from 'react';
+import PropTypes from "prop-types"
 import './index.css';
 
-const Footer = () => {
+const Footer = ({backgroundColor}) => {
   return (
-    <div id="footer">
+    <div id="footer" style={{backgroundColor: backgroundColor }}>
 		  <p>Content of footer  </p>
 		    <hr />
 		      <div id="copyright">
@@ -11,6 +12,10 @@ const Footer = () => {
 		    </div>
 	   </div>
   );
+}
+
+Footer.propTypes = {
+    backgroundColor: PropTypes.string,
 }
 
 export default Footer;
